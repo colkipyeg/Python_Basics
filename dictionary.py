@@ -28,3 +28,12 @@ details3={
 }
 h=details3["dislikes"]
 print(h)
+
+
+
+taskList = [23, "Jane", ["Lesson 23", 560, {"currency" : "KES"}], 987, (76,"John")]
+print(type(taskList))
+print(taskList[2][2]["currency"])
+print(taskList[2][1])
+print(len(taskList))
+
